@@ -1,0 +1,28 @@
+.banner{
+    background-image: url("/public/images/banner02.jpg");
+    background-color: blue;
+    max-width:100% !important; 
+    min-height:400px;
+    object-fit: cover;
+    filter: opacity(0.8);
+    background-color: darkblue;
+    width:100vw; 
+    height:400px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.cinema{
+    background-color: rgb(0,18,50);
+}
+.cinematable{
+background-color: rgb(1,23,63) !important;
+color: aliceblue;
+border-color:black ;
+height: 100px !important;
+text-align: center;
+vertical-align: middle !important;
+
+}

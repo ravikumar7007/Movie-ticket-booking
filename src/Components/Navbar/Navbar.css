@@ -1,0 +1,33 @@
+.navbar{
+    background-color: rgba(10, 30, 94,0.1);
+    height: 80px;
+   
+}
+
+.nav-link{
+    color: white !important;
+    font-size: x-large !important;
+}
+.nav-link:hover{
+    color: grey !important;
+}
+
+.btn-primary{
+ 
+    background: linear-gradient(90deg, rgb(89,95,251) 0%,rgb(153,84,179) 50%, rgb(237,70,87) 100%);
+    width: 150px !important;
+    height: 60px !important;
+    padding: 10px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-self: center !important;
+    font-size: large !important;
+    border-radius: 30px !important;
+}
+
+.btn-primary:hover{
+    background: blue;
+}
+.navbar-scrolled{
+    background-color: #0a1e5e;
+}

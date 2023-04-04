@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap'
+import "primereact/resources/themes/lara-light-indigo/theme.css";     
+import "primereact/resources/primereact.css";
+import "primeicons/primeicons.css";     
+                                
+        
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

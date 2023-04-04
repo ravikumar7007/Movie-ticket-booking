@@ -1,0 +1,84 @@
+
+.signupContainer{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center !important;
+    background-image: url("/public/images/account-bg.jpg");
+}
+
+.signupForm{
+    width: 500px !important;
+    margin: 80px;
+    background-color: rgba(68, 90, 153, 0.051);
+    padding: 60px 45px;
+    box-shadow: 0px 0px 29.4px 0.6px rgb(0 0 0 / 50%);
+}
+
+.welcomeText{
+    color: #31d7a9;
+    font-size: 18px;
+}
+
+.form-label{
+    color: white !important;
+    text-transform: uppercase;
+}
+
+.welcomeSubText{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 36px;
+}
+
+.form-control-group{
+    text-align: left;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px darkblue inset !important;
+    -webkit-text-fill-color: white!important;
+}
+.form-control::placeholder {color:#999;}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.form-control{
+    background: none !important;
+    border: none !important;
+    color: white !important;
+    border-bottom: 1px solid #23334f !important;
+    border-radius:0% !important;
+    
+}
+.form-control:focus, .form-check-input {
+    box-shadow: none !important;
+}
+
+
+
+.loginText{
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.loginLink{
+    color: #31d7a9;
+}
+
+
+.form-control:focus{
+    background: none;
+    border: none;
+    outline: none;
+    border-color: transparent;
+}

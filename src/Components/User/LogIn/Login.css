@@ -1,0 +1,23 @@
+.logbackground{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center !important;
+    background-image: url("/public/images/account-bg.jpg");
+}
+
+.loginForm{
+    width: 500px !important;
+    margin: 80px;
+    background-color: rgba(68, 90, 153, 0.051);
+    padding: 60px 45px;
+    box-shadow: 0px 0px 29.4px 0.6px rgb(0 0 0 / 50%);
+}
+
+.form-check-input{
+    background: white;
+   
+}
+
+.downtext{
+    color:#999;
+}

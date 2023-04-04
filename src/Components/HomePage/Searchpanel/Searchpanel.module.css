@@ -1,0 +1,76 @@
+.searchmargin {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -125px;
+}
+.searchbox {
+  height: 250px;
+  min-width: 75vw;
+  background-image: url("/public/images/ticket-bg01.jpg");
+
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.searchbg {
+  padding: 20px 50px;
+  height: 100%;
+  background-color: rgba(48, 42, 196, 0.7);
+}
+
+.p-dropdown{
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.searchlayer {
+  border: 1px solid black;
+  background-color: rgba(40, 19, 199, 0.8);
+  height: 85px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.inputstyle{
+    background: none ;
+    border: none ;
+    color: white ;
+    border-bottom: 1px solid #23334f !important ;
+    border-radius:0%;
+    
+}
+.inputstyle::placeholder {
+  color: rgb(137,153,211) ;
+}
+.inputstyle:focus{
+  outline: none;
+  
+}
+.searchOption{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select{
+  background-color: rgba(48, 42, 196, 0) !important;
+  border: none !important;
+  color: whitesmoke !important ;
+}
+.select:focus{
+  outline: none;
+}
+.select::placeholder{
+  color: white !important ;
+}
+.label{
+  color:aqua;
+}
+.option{
+  background-color: darkblue;
+}

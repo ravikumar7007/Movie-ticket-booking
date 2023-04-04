@@ -1,0 +1,52 @@
+.banner{
+    background-image: url("/public/images/banner02.jpg");
+    background-color: blue;
+    max-width:100% !important; 
+    min-height:400px;
+    object-fit: cover;
+    filter: opacity(0.8);
+    background-color: darkblue;
+    width:100vw; 
+    height:400px;
+}
+
+.detailimage{
+  border: darkblue 1px solid;    
+}
+
+.detailtop{
+    margin-left: 100px;
+    position: relative;
+    margin-top: -200px;
+}
+.ratingside{
+   
+    background-color: rgb(3,32,85);
+    height:175px;
+    margin-top: -200px;
+    padding-left: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bantext{
+    color:#9aace5 ;
+}
+.userrating{
+    position: relative;
+    z-index: 2;
+    
+}
+.filler{
+    padding-top: 110px;
+    min-height: 100px;
+    background-color: rgb(0,18,50);
+}
+.reviewpic{
+    min-width: 80px;
+    border: 2px solid darkcyan; 
+   padding: 5px;
+  outline: 2px solid darkcyan;
+  outline-offset: -7.5px;
+}
